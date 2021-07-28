@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
 
@@ -19,124 +19,120 @@
   </head>
   <body>
     <header class="top-head">
-        <div class="wrapper-head">
-            <div class="row fixed-width">
-                <div class="col-lg-8 col-md-12">
-                    <nav class="navbar navbar-dark">
-                        <div class="container mt-1">
-                          <a class="navbar-brand d-flex align-items-center" href="#">
-                            <img src="images/icons/logo.png" alt="" width="40" height="51" class="d-inline-block align-text-top">
-                            <span class="ml-3 mb-3">Idea</span>
-                          </a>
-                        </div>
-                      </nav>
-                </div>
-                <div class="col-lg-4">
                     <nav class="navbar navbar-expand-lg navbar-dark">
-                        <div class="container">
+                        <div class="container fixed-width">
+                            <a class="navbar-brand d-flex align-items-center" href="#">
+                                <img src="images/icons/logo.png" alt="" width="40" height="51" class="d-inline-block align-text-top">
+                                <span class="ml-3 mb-3">Idea</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ">
                               <li class="nav-item mt-2">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                               </li>
                               <li class="nav-item mt-2">
-                                <a class="nav-link" href="#">about</a>
+                                <a class="nav-link active" href="#">About</a>
                               </li>
                               <li class="nav-item mt-2">
-                                <a class="nav-link" href="#">works</a>
+                                <a class="nav-link active" href="#">Works</a>
                               </li> 
                               <li class="nav-item">
-                                <a class="nav-link" href="#"><img src="images/icons/profile.png" alt=""></a>
+                                <a class="nav-link active" href="#"><img src="images/icons/profile.png" alt=""></a>
                               </li> 
                             </ul>
                           </div>
                         </div>
-                      </nav>
-                </div>
-            </div>
-        </div>
+                    </nav>
     </header>
+
+               <!-- -----top-section-start--(top-player)----- -->
+               
     <main class="main">
         <section class="top-section pt-4">
             <div class="container fixed-width bg-white rounded p-4">
                 <h4 class="player-title ml-4 pt-3">Top Player</h4>
-                <div class="row mt-4 ml-2">
-                    <div class="col-lg-4 d-flex align-items-center">
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
                         <div class="player-info">
                             <img width="56" src="images/players/player-1.png" alt="">
                         </div>
-                        <div class="player-name ml-2">
+                        <div class="player-name ms-2">
                             <h4 class="">John Smith</h4>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
                         <div class="player-info">
                             <img width="56" class="w-56 h-56" src="images/players/player-2.png" alt="">
                         </div>
-                        <div class="player-name ml-2">
+                        <div class="player-name ms-2">
                             <h4>Pro Rasel</h4>
                         </div>
                     </div>
-                <div class="col-lg-4 d-flex align-items-center">
-                <div class="player-info">
-                    <img width="56" class="w-56 h-56" src="images/players/player-4.png" alt="">
-                </div>
-                <div class="player-name ml-2">
-                    <h4>Abu Sufian</h4>
-                </div>
-                </div>
+                   <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
+                        <div class="player-info">
+                             <img width="56" class="w-56 h-56" src="images/players/player-4.png" alt="">
+                    </div>
+                    <div class="player-name ms-2">
+                        <h4>Abu Sufian</h4>
+                    </div>
+                 </div>
              </div>
              <div class="row mt-4 ml-2">
-                <div class="col-lg-4 d-flex align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="player-info">
                         <img width="56" src="images/players/player-6.png" alt="">
                     </div>
-                    <div class="player-name ml-2">
+                    <div class="player-name ms-2">
                         <h4>Shajedul Karim</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 d-flex align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="player-info">
                         <img width="56" class="w-56 h-56" src="images/players/player-3.png" alt="">
                     </div>
-                    <div class="player-name ml-2">
+                    <div class="player-name ms-2">
                         <h4>Maruf Ahmed</h4>
                     </div>
                 </div>
-            <div class="col-lg-4 d-flex align-items-center">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
             <div class="player-info">
                 <img width="56" class="w-56 h-56" src="images/players/player-5.png" alt="">
             </div>
-            <div class="player-name ml-2">
+            <div class="player-name ms-2">
                 <h4>Mujahid</h4>
             </div>
             </div>
          </div>
          <hr>
-         <h4 class="player-title mt-4 ml-4">Top Player</h4>
+          <!-- ------another-part-(top-blog)-part-start------ -->
+
+         <h4 class="player-title mt-4 mb-4 ml-4">Top blog</h4>
          <div class="row ml-2">
-             <div class="col-lg-6">
+             <div class="col-lg-6 col-md-12 col-sm-12">
                  <div class="row">
                      <div class="col-lg-5 d-flex">
-                         <div class="img-box mt-4">
-                             <img width="177" src="images/blogs/blog-1.png" alt="">
+                         <div class="img-box">
+                             <img width="177" height="117" src="images/blogs/blog-1.png" alt="">
                          </div>
                      </div>
-                     <div class="col-lg-6 mt-3 ml-2">
+                     <div class="col-lg-6 ms-3">
                         <h4>13 of My Favorite
                             UI/UX Goodies</h4>
                         <p class="player-name"><span class="cool">By</span> Danny Sapio</p>
                      </div>
                  </div>
              </div>
-             <div class="col-lg-6">
+             <div class="col-lg-6  col-md-12 col-sm-12">
                 <div class="row">
                     <div class="col-lg-5 d-flex">
-                        <div class="img-box mt-4">
-                            <img width="177" src="images/blogs/blog-2.png" alt="">
+                        <div class="img-box">
+                            <img width="177" height="117" src="images/blogs/blog-2.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 mt-3 ml-2">
+                    <div class="col-lg-6 ms-3">
                        <h4>UI cheat sheet: 
                         list vs grids</h4>
                        <p class="player-name"><span class="cool">By</span>Tess Gadd</p>
@@ -146,28 +142,28 @@
          </div>
 
          <div class="row ml-2">
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-12 col-sm-12">
                 <div class="row">
                     <div class="col-lg-5 d-flex">
                         <div class="img-box mt-4">
-                            <img width="177" src="images/blogs/blog-3.png" alt="">
+                            <img width="177" height="117" src="images/blogs/blog-3.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 mt-3 ml-2">
+                    <div class="col-lg-6 mt-3 ms-3">
                        <h4>7 typography tips 
                         for interface design</h4>
                        <p class="player-name"><span class="cool">By</span>Jeremiah Lam</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-12 col-sm-12">
                <div class="row">
                    <div class="col-lg-5 d-flex">
                        <div class="img-box mt-4">
-                           <img width="177" src="images/blogs/blog-4.png" alt="">
+                           <img width="177" height="117" src="images/blogs/blog-4.png" alt="">
                        </div>
                    </div>
-                   <div class="col-lg-6 mt-3 ml-2">
+                   <div class="col-lg-6 mt-3 ms-3">
                       <h4>Your logo is 
                         copied</h4>
                       <p class="player-name"><span class="cool">By</span>Ferdinand Vogler</p>
@@ -178,13 +174,15 @@
             </div>
         </section>
     </main>
+                <!-- -----lates-course-section-start----- -->
+
     <section class="courses pt-4 pb-4">
         <div class="container fixed-width bg-white p-4 rounded">
                <h4 class="player-name pt-3 ml-3">Lates Course</h4>
                <div class="row d-flex justify-content-evenly">
-                <div class="col-lg-3 shadow rounded mt-3 col-width">
+                <div class="col-lg-3 col-md-12 col-sm-12  shadow rounded mt-3 course-width">
                     <div class="content-box mt-4">
-                        <img width="224" height="104" src="images/courses/course-1.png" alt="">
+                        <img class="img-fluid" src="images/courses/course-1.png" alt="">
                         <h4 class="article-one mt-4 ">React -The Complete </h4>
                         <h4 class="article-two">Guide 2020 </h4>
                         <br>
@@ -207,9 +205,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 shadow rounded mt-3 col-width">
+                <div class="col-lg-3 col-md-12 col-sm-12 shadow rounded mt-3 course-width">
                     <div class="content-box mt-4">
-                        <img width="224" height="104" src="images/courses/course-2.png" alt="">
+                        <img class="img-fluid" src="images/courses/course-2.png" alt="">
                         <h4 class="article-one mt-4">Powerpoint 2020  </h4>
                         <h4 class="article-two">Master Powerpoint Cour</h4>
                         <p class="reed text-danger">Walter Scott</p>
@@ -231,9 +229,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 shadow rounded mt-3 col-width">
+                <div class="col-lg-3 col-md-12 col-sm-12 shadow rounded mt-3 course-width">
                     <div class="content-box mt-4">
-                        <img width="224" height="104" src="images/courses/course-3.png" alt="">
+                        <img class="img-fluid" src="images/courses/course-3.png" alt="">
                         <h4 class="article-one mt-4">The Complete JavaScript </h4>
                         <h4 class="article-two">Course 2020</h4>
                         <p class="reed text-danger">Reed Krakoff.</p>
@@ -260,7 +258,7 @@
   
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
